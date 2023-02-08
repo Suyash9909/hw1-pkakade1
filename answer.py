@@ -9,7 +9,7 @@ def number():
        This is to review numbers and basic operations.
        """
     # Write the value 4 to the power of 5 and assign it to variable x.
-    x =
+    x =4**5
     # Write the value x divided by 3 and assign it to variable y.
     y =
     return x,y
