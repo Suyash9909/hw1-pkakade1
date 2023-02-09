@@ -25,7 +25,7 @@ def strings():
 
     # Repeat variable stevens 7 times and assign it to variable stevens_7.
 
-    stevens_7 = stevens_7*7
+    stevens_7 = stevens*7
 
     # What is the length of stevens_7?
 
