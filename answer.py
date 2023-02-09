@@ -102,11 +102,11 @@ def dictionary():
     #   "fruit" => "apple"
     #   "quantity" => 18
     #   "color" => "red"
-    fruit_dict =
+    fruit_dict ={'fruit': 'apple','quantity':'18','colour':'red'}
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
 
-    f ={'fruit': apple,'quantity':'18','colour':'red'}
+    f = fruit_dict['fruit']
 
     # Increase the value that key "quantity" map to by 1.
     f['quantity']=f['quantity'] + 1
