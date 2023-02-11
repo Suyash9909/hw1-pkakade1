@@ -52,11 +52,11 @@ def list_1D():
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
-    hoboken_list =s.split(',')
+    hoboken_list = hoboken.split(',')
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
-    hoboken_first_item = hoboken_list[0]
+    hoboken_first_item = hoboken_list[0]	
     
 
     ####
@@ -67,7 +67,7 @@ def list_1D():
 
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l =l[3:11]
+    new_l =l[3:10]
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
@@ -81,7 +81,7 @@ def list_2D():
 
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
-    last_column = A[2]
+    last_column = [row[2] for row in A]
 
     # Get the item at the last row and last column of A.
 
