@@ -89,7 +89,7 @@ def list_2D():
 
     # Get the item at row 2 and column 1 of A.
 
-        b =A[1][0]
+    b =A[1][0]
 
     return A,last_column, a, b
 
