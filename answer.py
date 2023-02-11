@@ -33,11 +33,11 @@ def strings():
 
     # Concatenate variable stevens with string " is great" and assign it to variable great.
 
-    great = stevens + 'is great'
+    great = stevens + ' is great'
 
     # Replace "great" with "good" in variable great and assign it to a new variable good.
 
-    good =  S.replace('great', 'good' )
+    good =  great.replace('great', 'good' )
 
     return stevens, stevens_7, length, great, good
 
@@ -48,7 +48,7 @@ def list_1D():
     s = " hoboken,is,awesome,i,like,it "
     #Remove whitespace characters on both side and assign it to a new variable hoboken.
 
-    hoboken = s.lstrip().rstrip()
+    hoboken=s.lstrip().rstrip()
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
@@ -89,7 +89,7 @@ def list_2D():
 
     # Get the item at row 2 and column 1 of A.
 
-    b =A[1][0]
+        b =A[1][0]
 
     return A,last_column, a, b
 
@@ -102,7 +102,7 @@ def dictionary():
     #   "fruit" => "apple"
     #   "quantity" => 18
     #   "color" => "red"
-    fruit_dict ={'fruit': 'apple','quantity':'18','colour':'red'}
+    fruit_dict ={'fruit': 'apple','quantity':18,'colour':'red'}
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
 
